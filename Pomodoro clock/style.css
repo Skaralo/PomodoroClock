@@ -1,0 +1,242 @@
+/* * {
+  border: solid white;
+} */
+
+.main {
+    background-color: #B22222;
+    
+  }
+  .nav_bar {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  /*   display: inline-block; */
+  }
+  .page-header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .set_pomodoro {
+    height: 450px;
+    position: relative;
+    text-align: center;
+  }
+  
+  #field1 {
+    display: inline-block;
+  /*   padding: 20px; */
+     width: 150px;
+    height: 100px;
+    color: white; 
+  }
+  
+  #field2 {
+    display: inline-block;
+  /*   padding: 20px; */
+     width: 150px;
+    height: 100px; 
+    color: white;
+  
+  }
+  
+  #pauzecount {
+    width: 35px;
+    heigth: 35px;
+    font-weight: bold;
+    margin: 5px;
+    color: #FF0000;
+    border-radius: 50%;
+    background-color: white;
+    border: solid #B22222;
+    text-align: center;
+    
+  }
+  
+  #sessioncount {
+    width: 35px;
+    heigth: 35px;
+    font-weight: bold;
+    margin: 5px;
+    color: #FF0000;
+    border-radius: 50%;
+    background-color: white;
+    border: solid #B22222;
+    text-align: center;
+  }
+  
+  .increment-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid #FF0000;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .increment-btn:hover {
+     background-color: #FF4500;
+      color: white;
+      text-decoration:none;
+  }
+  
+  .decrement-btn:hover {
+     background-color: #FF4500;
+      color: white;
+      text-decoration:none;
+  }
+  
+  .decrement-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid #FF0000;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* #submit{
+    border: 2px soild black;
+  } */
+  .session {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid #FF0000;
+    border-width: thick;
+    background-color: #B22222;
+  /*   position: absolute; */
+    display: inline-block;
+  
+  }
+  #SessDiv{
+     text-decoration:none;
+  }
+  
+  /* #SessDiv:hover {
+    color: #F0FFFF ;
+    background-color: #FF4500;
+    text-decoration:none;
+  } */
+  
+  /* .black{
+     width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid #FF0000;
+    border-width: thick;
+    position: absolute;
+    display: inline-block;
+    background-color: #000000;
+  } */
+  
+  .submit {
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-family: verdana;
+  /*   position: absolute; */
+    background-color: #B22222;
+    border: solid #B22222;
+    cursor: pointer;
+  }
+  
+  .countdown-display {
+  /*   margin-top: 160px;
+    margin-left: 620px; */
+    left: 500;
+    top: 70%;
+    text-align: center;
+    color: white;
+  /*   position: absolute; */
+    bottom: 0;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #B22222;
+    border: solid #B22222;
+  }
+  
+  .navbar2 {
+    text-align: center;
+  }
+  
+  .bottomnav1 {
+    display: inline-block;
+    width: 120px;
+    heigth: 120px; 
+    border: white;
+  }
+  
+  .bottomnav2 {
+    display: inline-block;
+    width: 120px;
+    heigth: 100px; 
+    border: white;
+  }
+  
+  /* #resetsession {
+    width: 300px;
+    heigth: 100px;
+    border: solid;
+    padding-right: 0;
+  } */
+  
+  .pauze-session {
+  /*   width: 100px;
+    heigth: 30px; */
+    border-radius: 10px;
+    border: solid #FF0000;
+    font-weight: normal;
+    color: white;
+    background-color: #B22222;
+    padding:0.30em 1.40em;
+    box-sizing: border-box;
+    text-decoration:none;
+    margin:0 0.1em 0.3em 0;
+    text-align: center;
+   
+    
+  }
+    .pauze-session:hover{
+      background-color: #FF4500;
+      color: white;
+    text-decoration:none;
+    /* text-size-adjust: none; */
+  }
+  
+  .reset-session {
+  /*   width: 100px;
+    heigth: 30px; */
+    border-radius: 10px;
+    border: solid #FF0000;
+    font-weight: normal;
+    color: white;
+    background-color: #B22222;
+    padding:0.30em 1.40em;
+    box-sizing: border-box;
+    text-decoration:none;
+    margin:0 0.1em 0.3em 18px;
+    text-align: center;
+
+    
+  }
+    .reset-session:hover{
+      background-color: #FF4500;
+      color: white;
+      text-decoration:none;
+  }
+  
+  p {
+    
+      color: #A592D8;
+  }
+  
+  
+  
+  /* .pauze-session, .reset-session
+  padding:0.30em 2.10em;
+  margin:0 0.1em 0.3em 2; */

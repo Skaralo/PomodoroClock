@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Pomodoro Clock </title>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+
+    </head>
+    <body>
+            <audio id="myAudio">
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+                  </audio>
+   <main>
+ 
+ 
+      <div class="main">
+        <div class="page-header">
+            <div id="title"><h2>Pomodoro Clock</h2></div>
+          
+        </div>
+      <div class="set_pomodoro">
+         <div class="session" id='SessDiv'>
+           
+           <button type="submit" onclick="clockCountdown()" value="start session" class="submit" id='SessDiv1'>start session</button>
+           
+             <input type="text" class="countdown-display" id='SessDiv2' value="25:00"/>
+        <br><br><br><br>
+<!--                      <div class="countdown-display" id='SessDiv2'></div> -->
+       </div>                                                                 
+        <div class="nav_bar">
+          <div id="field1">Break timer<br>
+          <input type="text" id="pauzecount"value="5"/><br>
+            <button type="button" id="button1" class="increment-btn">+</button>
+          <button type="button" id="button2" class="decrement-btn">-                </button>
+          </div>
+
+            <div id="field2">Session timer<br>
+          <input type="text" id="sessioncount"  value="25"/><br>
+               <button type="button" id="button4" class="decrement-btn">-</button> 
+          <button type="button" id="button3" class="increment-btn">+</button>
+          
+            </div>   
+      </div><br>
+            <div class="navbar2">                  
+                <div class="bottomnav1">              
+                    <button type="button" class="pauze-session" id="pauze" value="0">pause</button>             
+              </div>
+            <div class="bottomnav2">
+              <button type="button" class="reset-session" id="reset">reset </button>
+              </div><br><br>
+                                                                                <p>&copy;Mathilde</p>  
+              
+              
+             </div>
+           </div>
+          </div>
+     <script src="jsclock.js"></script>
+      <!-- <script src="pomodorocl.js"></script>    -->
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+     
+     <script>
+document.getElementById("SessDiv").onmouseover = function() {mouseOver()};
+document.getElementById("SessDiv").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+  document.getElementById("SessDiv").style.backgroundColor = "#FF4500";
+  document.getElementById("SessDiv1").style.backgroundColor = "#FF4500"; 
+  document.getElementById("SessDiv1").style.borderColor = "#FF4500"; 
+  document.getElementById("SessDiv2").style.backgroundColor = "#FF4500";
+  document.getElementById("SessDiv2").style.borderColor = "#FF4500";
+}
+function mouseOut() {
+  document.getElementById("SessDiv").style.backgroundColor = null;
+  document.getElementById("SessDiv1").style.backgroundColor = null;
+  document.getElementById("SessDiv1").style.borderColor = null;
+  document.getElementById("SessDiv2").style.backgroundColor = null;
+  document.getElementById("SessDiv2").style.borderColor = null;
+}
+</script>
+
+    </body>
+</html>
